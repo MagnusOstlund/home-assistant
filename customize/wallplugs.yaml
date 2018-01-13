@@ -1,0 +1,31 @@
+### Customize ###
+
+  switch.brytare1_switch:
+    friendly_name: Fönsterlampa
+    
+  switch.brytare2_switch:
+    friendly_name: Fönsterlampa
+    
+  switch.brytare3_switch:
+    friendly_name: Fönsterlampa
+    
+  switch.brytare4_switch:
+    friendly_name: Fönsterlampa
+    
+  switch.brytare5_switch:
+    friendly_name: Golvlampa
+    
+  switch.brytare6_switch:
+    friendly_name: Golvlampa
+    
+  switch.brytare7_switch:
+    friendly_name: Fönsterlampa
+    
+  switch.brytare8_switch:
+    friendly_name: Fönsterlampa
+    
+  switch.brytare9_switch:
+    friendly_name: Används ej
+    
+  switch.brytare10_switch:
+    friendly_name: Poolen
