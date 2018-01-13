@@ -19,7 +19,7 @@ groventre:
 hallov:
   name: Hall Övervåning
   entities:
-    - switch.brytare8_switch
+   - switch.brytare6_switch
 
 hallnv:
   name: Hall
@@ -35,7 +35,7 @@ kök:
   name: Kök
   view: no
   entities:
-    - switch.brytare4_switch
+   - switch.brytare4_switch
 
 rumov1:
   name: Master Bedroom
@@ -56,7 +56,7 @@ rumov3:
   name: Gästrum
   view: no
   entities:
-    -switch.brytare8_switch
+   - switch.brytare8_switch
 
 rumnv1:
   name: Emmas rum
@@ -125,7 +125,7 @@ rum:
 overvaning:
   name: Övervåning
   view: yes
-  entiies:
+  entities:
    - group.rumov1
    - group.rumov2
    - group.rumov3
@@ -134,7 +134,7 @@ overvaning:
 nedervaning:
   name: Bottenvåning
   view: yes
-  entiies:
+  entities:
    - group.kok
    - group.vardagsrum
    - group.groventre
