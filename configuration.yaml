@@ -78,3 +78,7 @@ script: !include scripts.yaml
 
 # Panel iFrame
 panel_iframe: !include panel_iframe.yaml
+
+## Alexa
+cloud:
+ # alexa:
