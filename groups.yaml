@@ -1,0 +1,93 @@
+### Grupper ###
+
+dörrlås:
+  name: Ytterdörrar
+  view: no
+  entities:
+   - lock.groventre
+   - lock.huvudentre
+
+### RUM ###
+kök:
+  name: Kök
+  view: no
+  entities:
+
+rumov1:
+  name: Master Bedroom
+  view: no
+  entities:
+   - binary_sensor.rokdetektor_rum1ov_sensor
+   - sensor.rokdetektor_rum1ov_temperature
+  
+rumov2:
+  name: Ellas rum
+  view: no
+  entities:
+   - binary_sensor.rokdetektor_rum2ov_sensor
+   - sensor.rokdetektor_rum2ov_temperature
+  
+rumnv1:
+  name: Emmas rum
+  view: no
+  entities:
+   - binary_sensor.rokdetektor_rum1nv_sensor
+   - sensor.rokdetektor_rum1nv_temperature
+
+vardagsrum:
+  name: Vardagsrum
+  view: no
+  entities:
+   - binary_sensor.rokdetektor_trapp_sensor
+   - sensor.rokdetektor_trapp_temperature
+
+tvrum:
+  name: TV-rum
+  view: no
+  entities:
+
+groventre:
+  name: Groventré
+  view: no
+  entities:
+   - lock.groventre
+   - binary_sensor.rokdetektor_tvattstuga_sensor
+   - sensor.rokdetektor_tvattstuga_temperature
+  
+huvudentre:
+  name: Huvudentré
+  view: no
+  entities:
+   - lock.huvudentre
+################################################################################################################################################## 
+ #################################################VIEWS############################################################################################
+ 
+## Views ## 
+  
+## Default View ##
+default_view:
+  name: Huset
+  view: yes
+  entities:
+   - updater.updater
+   - sensor.yr_symbol
+   - binary_sensor.rokdetektor_rum1nv_sensor
+   - binary_sensor.rokdetektor_tvattstuga_sensor
+   - binary_sensor.rokdetektor_trapp_sensor
+   - binary_sensor.rokdetektor_rum1ov_sensor
+   - binary_sensor.rokdetektor_rum2ov_sensor
+   - group.dorrlas
+
+rum:
+  name: Rum
+  view: yes
+  entities:
+   - group.kok
+   - group.vardagsrum
+   - group.groventre
+   - group.huvudentre
+   - group.tvrum
+   - group.rumnv1
+   - group.rumov1
+   - group.rumov2
+   

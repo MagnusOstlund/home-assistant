@@ -1,0 +1,12 @@
+synology:
+  title: 'Synology'
+  icon: mdi:server-network
+  url: 'https://192.168.1.102:5001' 
+terminal:
+  title: 'Terminal'
+  icon: mdi:console
+  url: 'https://192.168.1.95:4532'
+configurator:
+    title: 'Configurator'
+    icon: mdi:wrench
+    url: 'http://192.168.1.95:3218'

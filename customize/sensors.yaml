@@ -1,0 +1,28 @@
+### CUSTOMIZE ###
+
+  binary_sensor.rokdetektor_rum1nv_sensor:
+    device_class: smoke
+    friendly_name: Rökdetektor Emma
+  binary_sensor.rokdetektor_tvattstuga_sensor:
+    device_class: smoke
+    friendly_name: Rökdetektor Tvättstuga
+  binary_sensor.rokdetektor_trapp_sensor:
+    device_class: smoke
+    friendly_name: Rökdetektor Trapp
+  binary_sensor.rokdetektor_rum1ov_sensor:
+    device_class: smoke
+    friendly_name: Rökdetektor Master Bedroom
+  binary_sensor.rokdetektor_rum2ov_sensor:
+    device_class: smoke
+    friendly_name: Rökdetektor Ella
+    
+  sensor.rokdetektor_rum1nv_temperature:
+    friendly_name: Rumstemperatur
+  sensor.rokdetektor_tvattstuga_temperature:
+    friendly_name: Rumstemperatur
+  sensor.rokdetektor_rum1ov_temperature:
+    friendly_name: Rumstemperatur
+  sensor.rokdetektor_rum2ov_temperature:
+    friendly_name: Rumstemperatur
+  sensor.rokdetektor_trapp_temperature:
+    friendly_name: Rumstemperatur
