@@ -62,10 +62,6 @@ map:
 # Track the sun
 sun:
 
-# Weather prediction
-sensor:
-  - platform: yr
-
 # Text to speech
 tts:
   - platform: google
@@ -74,7 +70,7 @@ tts:
 zwave: !include devices/zwave.yaml
 verisure: !include devices/verisure.yaml
 media_player: !include devices/media_players.yaml 
-
+sensor: !include devices/sensors.yaml
 
 group: !include groups.yaml
 automation: !include automations.yaml
