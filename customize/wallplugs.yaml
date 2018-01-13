@@ -2,27 +2,35 @@
 
   switch.brytare1_switch:
     friendly_name: Fönsterlampa
+    icon: mdi:lightbulb
     
   switch.brytare2_switch:
     friendly_name: Fönsterlampa
+    icon: mdi:lightbulb
     
   switch.brytare3_switch:
     friendly_name: Fönsterlampa
+    icon: mdi:lightbulb
     
   switch.brytare4_switch:
     friendly_name: Fönsterlampa
+    icon: mdi:lightbulb
     
   switch.brytare5_switch:
     friendly_name: Golvlampa
+    icon: mdi:lightbulb
     
   switch.brytare6_switch:
     friendly_name: Golvlampa
+    icon: mdi:lightbulb
     
   switch.brytare7_switch:
     friendly_name: Fönsterlampa
+    icon: mdi:lightbulb
     
   switch.brytare8_switch:
     friendly_name: Fönsterlampa
+    icon: mdi:lightbulb
     
   switch.brytare9_switch:
     friendly_name: Används ej
