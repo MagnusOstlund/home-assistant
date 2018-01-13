@@ -1,4 +1,4 @@
-### Grupper ###
+##################################### Grupper ########################################
 
 dörrlås:
   name: Ytterdörrar
@@ -7,16 +7,41 @@ dörrlås:
    - lock.groventre
    - lock.huvudentre
 
-### RUM ###
+####################################### RUM ###########################################
+groventre:
+  name: Groventré
+  view: no
+  entities:
+   - lock.groventre
+   - binary_sensor.rokdetektor_tvattstuga_sensor
+   - sensor.rokdetektor_tvattstuga_temperature
+
+hallov:
+  name: Hall Övervåning
+  entities:
+    - switch.brytare8_switch
+
+hallnv:
+  name: Hall
+  entities:
+  
+huvudentre:
+  name: Huvudentré
+  view: no
+  entities:
+   - lock.huvudentre
+
 kök:
   name: Kök
   view: no
   entities:
+    - switch.brytare4_switch
 
 rumov1:
   name: Master Bedroom
   view: no
   entities:
+   - switch.brytare7_switch
    - binary_sensor.rokdetektor_rum1ov_sensor
    - sensor.rokdetektor_rum1ov_temperature
   
@@ -26,11 +51,18 @@ rumov2:
   entities:
    - binary_sensor.rokdetektor_rum2ov_sensor
    - sensor.rokdetektor_rum2ov_temperature
-  
+
+rumov3:
+  name: Gästrum
+  view: no
+  entities:
+    -switch.brytare8_switch
+
 rumnv1:
   name: Emmas rum
   view: no
   entities:
+   - switch.brytare2_switch
    - binary_sensor.rokdetektor_rum1nv_sensor
    - sensor.rokdetektor_rum1nv_temperature
 
@@ -38,6 +70,7 @@ vardagsrum:
   name: Vardagsrum
   view: no
   entities:
+   - switch.brytare3_switch
    - binary_sensor.rokdetektor_trapp_sensor
    - sensor.rokdetektor_trapp_temperature
 
@@ -45,20 +78,14 @@ tvrum:
   name: TV-rum
   view: no
   entities:
-
-groventre:
-  name: Groventré
+    - switch.brytare1_switch
+   
+uterum:
+  name: Uterum
   view: no
   entities:
-   - lock.groventre
-   - binary_sensor.rokdetektor_tvattstuga_sensor
-   - sensor.rokdetektor_tvattstuga_temperature
-  
-huvudentre:
-  name: Huvudentré
-  view: no
-  entities:
-   - lock.huvudentre
+   - switch.brytare5_switch
+   
 ################################################################################################################################################## 
  #################################################VIEWS############################################################################################
  
@@ -86,8 +113,33 @@ rum:
    - group.vardagsrum
    - group.groventre
    - group.huvudentre
+   - group.hallnv
    - group.tvrum
    - group.rumnv1
    - group.rumov1
    - group.rumov2
+   - group.rumov3
+   - group.hallov
+   - group.uterum
    
+overvaning:
+  name: Övervåning
+  view: yes
+  entiies:
+   - group.rumov1
+   - group.rumov2
+   - group.rumov3
+   - group.hallov
+   
+nedervaning:
+  name: Bottenvåning
+  view: yes
+  entiies:
+   - group.kok
+   - group.vardagsrum
+   - group.groventre
+   - group.huvudentre
+   - group.hallnv
+   - group.tvrum
+   - group.rumnv1
+   - group.uterum
