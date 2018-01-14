@@ -15,3 +15,6 @@
   light.vardagsrum_level:
     friendly_name: Takspottar
     alexa_name: Living room lamp
+  light.rum2nv_level:
+    friendly_name: Taklampa
+    alexa_name: TV ceiling
