@@ -65,6 +65,8 @@ rumnv1:
   name: Emmas rum
   view: no
   entities:
+   - light.rum1nv_level
+   - switch.brytare9_switch
    - switch.brytare2_switch
    - binary_sensor.rokdetektor_rum1nv_sensor
    - sensor.rokdetektor_rum1nv_temperature
