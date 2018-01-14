@@ -1,0 +1,12 @@
+### Customize ###
+
+  light.bankspottar_level:
+    friendly_name: Bänk spottar
+  light.entrelampor_level:
+    friendly_name: Lampor
+  light.hall_level:
+    friendly_name: Lampa
+  light.matbord_level:
+    friendly_name: Köksbord
+  light.vardagsrum_level:
+    friendly_name: Takspottar
