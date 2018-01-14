@@ -28,13 +28,16 @@ hallnv:
 huvudentre:
   name: Huvudentré
   view: no
+  control: hidden
   entities:
+   - light.entrelampor_level
    - lock.huvudentre
 
 kök:
   name: Kök
   view: no
   entities:
+   - light.matbord_level
    - switch.brytare4_switch
 
 rumov1:
