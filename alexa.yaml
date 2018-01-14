@@ -1,0 +1,15 @@
+  filter:
+    include_entities:
+      - switch.brytare1_switch
+      - switch.brytare2_switch
+      - switch.brytare3_switch
+      - switch.brytare4_switch
+      - switch.brytare5_switch
+      - switch.brytare6_switch
+      - switch.brytare7_switch
+      - switch.brytare8_switch
+      - light.bankspottar_level
+      - light.entrelampor_level
+      - light.hall_level
+      - light.matbord_level
+      - light.vardagsrum_level
