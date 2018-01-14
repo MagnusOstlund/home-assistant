@@ -2,11 +2,15 @@
 
   light.bankspottar_level:
     friendly_name: Bänk spottar
+    alexa_hidden: true
   light.entrelampor_level:
     friendly_name: Lampor
+    alexa_name: Entrance
   light.hall_level:
     friendly_name: Lampa
   light.matbord_level:
     friendly_name: Köksbord
+    alexa_name: Kitchen table
   light.vardagsrum_level:
     friendly_name: Takspottar
+    alexa_name: Living room
