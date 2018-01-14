@@ -81,4 +81,4 @@ panel_iframe: !include panel_iframe.yaml
 
 ## Alexa
 cloud:
- # alexa:
+  alexa: !include alexa.yaml
