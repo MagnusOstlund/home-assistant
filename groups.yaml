@@ -83,6 +83,7 @@ tvrum:
   name: TV-rum
   view: no
   entities:
+    - light.rum2nv_level
     - switch.brytare1_switch
    
 uterum:
