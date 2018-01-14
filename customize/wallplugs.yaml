@@ -49,7 +49,10 @@
     alexa_name: Guest Window
     
   switch.brytare9_switch:
-    friendly_name: Används ej
+    friendly_name: Golvlampa
+    icon: mdi:lightbulb
+    alexa_display_categories: 'LIGHT'
+    alexa_name: Emmas Floor lamp
     
   switch.brytare10_switch:
     friendly_name: Poolen
