@@ -82,3 +82,6 @@ panel_iframe: !include panel_iframe.yaml
 ## Alexa
 cloud:
   alexa: !include alexa.yaml
+
+## iOS
+ios:
