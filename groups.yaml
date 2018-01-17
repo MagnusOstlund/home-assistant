@@ -112,7 +112,7 @@ default_view:
    - binary_sensor.rokdetektor_rum1ov_sensor
    - binary_sensor.rokdetektor_rum2ov_sensor
    - device_tracker.emma
-   - device_tracker.magnus_iphone
+   - device_tracker.magnus
    - group.dorrlas
 
 rum:
