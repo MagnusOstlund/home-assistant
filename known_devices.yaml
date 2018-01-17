@@ -1,18 +1,17 @@
-
-magnus_iphone:
-  hide_if_away: false
-  icon:
-  mac:
-  name: Magnus
-  picture: /local/images/
-  track: true
-  vendor:
-
 emma:
   hide_if_away: false
   icon:
   mac:
   name: Emma
   picture: /local/images/emma.jpg
+  track: true
+  vendor:
+
+magnus:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Magnus
+  picture: /local/images/
   track: true
   vendor:
