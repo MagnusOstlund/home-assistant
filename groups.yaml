@@ -7,6 +7,36 @@ dörrlås:
    - lock.groventre
    - lock.huvudentre
 
+fönsterlampor:
+  name: Fönsterlampor
+  view: no
+  entities:
+    - switch.brytare1_switch
+    - switch.brytare2_switch
+    - switch.brytare3_switch
+    - switch.brytare4_switch
+    - switch.brytare7_switch
+    - switch.brytare8_switch
+    
+golvlampor:
+  name: Golvlampor
+  view: no
+  entities:
+    - switch.brytare5_switch
+    - switch.brytare6_switch
+    - switch.brytare9_switch
+
+taklampor:
+  name: Taklampor
+  view: no
+  entities:
+    - light.bankspottar_level
+    - light.entrelampor_level
+    - light.matbord_level
+    - light.rum1nv_level
+    - light.rum2nv_level
+    - light.vardagsrum_level
+    
 ####################################### RUM ###########################################
 groventre:
   name: Groventré
