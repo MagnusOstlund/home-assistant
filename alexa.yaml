@@ -31,7 +31,7 @@
       description: Living room lamp
     light.rum2nv_level:
       name: TV ceiling
-      description: Ceiling lamp Tv-roo,
+      description: Ceiling lamp Tv-room
       
     switch.brytare1_switch:
       display_categories: 'LIGHT'
