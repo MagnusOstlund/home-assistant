@@ -8,9 +8,55 @@
       - switch.brytare6_switch
       - switch.brytare7_switch
       - switch.brytare8_switch
+      - switch.brytare9_switch
       - light.bankspottar_level
       - light.entrelampor_level
       - light.rum1nv_level
       - light.rum2nv_level
       - light.matbord_level
       - light.vardagsrum_level
+      
+  entity_config:
+    light.entrelampor_level:
+      name: Entrance
+      description: The entrance lamp outside
+    light.rum1nv_level:
+      name: Emmas ceiling
+      description: Emmas ceiling lamp
+    light.matbord_level:
+      name: Kitchen table
+      description: Kitchen table lamp
+    light.vardagsrum_level:
+      name: Living room lamp
+      description: Living room lamp
+    light.rum2nv_level:
+      name: TV ceiling
+      description: Ceiling lamp Tv-roo,
+      
+    switch.brytare1_switch:
+      display_categories: 'LIGHT'
+      name: TV Window
+    switch.brytare2_switch:
+      display_categories: 'LIGHT'
+      name: Emmas Window
+    switch.brytare3_switch:
+      display_categories: 'LIGHT'
+      name: Living room Window
+    switch.brytare4_switch:
+      display_categories: 'LIGHT'
+      name: Kitchen Window
+    switch.brytare5_switch:
+      display_categories: 'LIGHT'
+      name: Lounge 
+    switch.brytare6_switch:
+      display_categories: 'LIGHT'
+      name: Upstairs 
+    switch.brytare7_switch:
+      display_categories: 'LIGHT'
+      name: Master Bedroom
+    switch.brytare8_switch:
+      display_categories: 'LIGHT'
+      name: Guest Window
+    switch.brytare9_switch:
+      display_categories: 'LIGHT'
+      name: Emmas Floor lamp
