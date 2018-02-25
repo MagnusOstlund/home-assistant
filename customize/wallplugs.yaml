@@ -5,54 +5,90 @@
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: TV Window
+  sensor.brytare1_energy:
+    friendly_name: Fönsterlampa
+  sensor.brytare1_power:
+    friendly_name: Fönsterlampa
     
   switch.brytare2_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Emmas Window
+  sensor.brytare2_energy:
+    friendly_name: Fönsterlampa
+  sensor.brytare2_power:
+    friendly_name: Fönsterlampa
     
   switch.brytare3_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Living room Window
+  sensor.brytare3_energy:
+    friendly_name: Fönsterlampa
+  sensor.brytare3_power:
+    friendly_name: Fönsterlampa
     
   switch.brytare4_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Kitchen Window
+  sensor.brytare4_energy:
+    friendly_name: Fönsterlampa
+  sensor.brytare4_power:
+    friendly_name: Fönsterlampa
     
   switch.brytare5_switch:
     friendly_name: Golvlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Lounge
+  sensor.brytare5_energy:
+    friendly_name: Fönsterlampa
+  sensor.brytare5_power:
+    friendly_name: Fönsterlampa 
     
   switch.brytare6_switch:
     friendly_name: Golvlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Upstairs
+  sensor.brytare6_energy:
+    friendly_name: Golvlampa
+  sensor.brytare6_power:
+    friendly_name: Golvlampa 
     
   switch.brytare7_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Master Bedroom
+  sensor.brytare7_energy:
+    friendly_name: Fönsterlampa
+  sensor.brytare7_power:
+    friendly_name: Fönsterlampa
     
   switch.brytare8_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Guest Window
+  sensor.brytare8_energy:
+    friendly_name: Golvlampa
+  sensor.brytare8_power:
+    friendly_name: Golvlampa
     
   switch.brytare9_switch:
     friendly_name: Golvlampa
     icon: mdi:lightbulb
     alexa_display_categories: 'LIGHT'
     alexa_name: Emmas Floor lamp
+  sensor.brytare9_energy:
+    friendly_name: Golvlampa
+  sensor.brytare9_power:
+    friendly_name: Golvlampa
     
   switch.brytare10_switch:
     friendly_name: Poolen
