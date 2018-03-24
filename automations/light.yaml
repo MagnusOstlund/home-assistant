@@ -1,0 +1,202 @@
+# Turns on lights 1 hour before sunset if people are home
+# and if people get home between 16:00-23:00
+- alias: 'Rule 1 Light on in the evening'
+  trigger:
+    - platform: sun
+      event: sunset
+      offset: '-01:00:00'
+  condition:
+    condition: time
+    weekday:
+      - sun 
+      - mon
+      - tue
+      - wed
+      - thu
+  action:
+    service: homeassistant.turn_on
+    entity_id: group.lampor1
+
+- alias: 'Rule 2 Light off in the evening'
+  trigger:
+    - platform: time
+      at: '22:15:00'
+  condition:
+    condition: time
+    weekday:
+      - sun
+      - mon
+      - tue
+      - wed
+      - thu
+  action:
+    service: homeassistant.turn_off
+    entity_id: 
+      - group.lampor1
+      - light.matbord_level
+      - switch.brytare5_switch
+
+- alias: 'Rule 3 Light on in the evening'
+  trigger:
+    - platform: sun
+      event: sunset
+      offset: '-01:00:00'
+  condition:
+    condition: time
+    weekday:
+      - fri
+      - sat
+  action:
+    service: homeassistant.turn_on
+    entity_id: 
+      - group.lampor1
+      - switch.brytare5_switch
+
+- alias: 'Rule 4 Light off in the evening'
+  trigger:
+    - platform: time
+      at: '23:30:00'
+  condition:
+    condition: time
+    weekday:
+      - fri
+      - sat
+  action:
+    service: homeassistant.turn_off
+    entity_id: 
+      - group.lampor1
+      - switch.brytare5_switch
+
+- alias: 'Tänds mån-fre morgon'
+  trigger:
+    - platform: time
+      at: '06:15:00'
+  condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: 'binary_sensor.workday_sensor'
+        state: 'on'
+      - condition: sun
+        before: sunrise
+  action:
+    service: homeassistant.turn_on
+    entity_id: 
+      - switch.brytare4_switch
+      - switch.brytare3_switch
+      - switch.brytare1_switch
+      - light.entrelampor_level
+      
+- alias: 'Släcks mån-fre morgon'
+  trigger:
+    - platform: sun
+      event: sunrise
+  condition:
+    condition: state
+    entity_id: 'binary_sensor.workday_sensor'
+    state: 'on'
+  action:
+    service: homeassistant.turn_off
+    entity_id: 
+      - switch.brytare4_switch
+      - switch.brytare3_switch
+      - switch.brytare1_switch
+      - light.entrelampor_level
+      
+- alias: 'Tänds lör-sön morgon'
+  trigger:
+    - platform: time
+      at: '08:00:00'
+  condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: 'binary_sensor.workday_sensor'
+        state: 'off'
+      - condition: sun
+        before: sunrise
+  action:
+    service: homeassistant.turn_on
+    entity_id: 
+      - switch.brytare4_switch
+      - switch.brytare3_switch
+      - switch.brytare1_switch
+      - light.entrelampor_level
+      
+- alias: 'Släcks lör-sön morgon'
+  trigger:
+    - platform: sun
+      event: sunrise
+  condition:
+    condition: state
+    entity_id: 'binary_sensor.workday_sensor'
+    state: 'off'
+  action:
+    service: homeassistant.turn_off
+    entity_id: 
+      - switch.brytare4_switch
+      - switch.brytare3_switch
+      - switch.brytare1_switch
+      - light.entrelampor_level
+
+- alias: 'Tända matbord mån-fre morgon'
+  trigger:
+    - platform: time
+      at: '06:30:00'
+  condition:
+    condition: and
+    conditions:
+      - condition: state
+        entity_id: 'binary_sensor.workday_sensor'
+        state: 'on'
+      - condition: sun
+        before: sunrise
+  action:
+    service: homeassistant.turn_on
+    entity_id: 
+      - light.matbord_level
+      
+- alias: 'Släcka matbord mån-fre morgon'
+  trigger:
+    - platform: sun
+      event: sunrise
+  condition:
+    condition: state
+    entity_id: 'binary_sensor.workday_sensor'
+    state: 'on'
+  action:
+    service: homeassistant.turn_off
+    entity_id:
+      - light.matbord_level
+      
+- alias: Tända matbord kvällar'
+  trigger:
+    - platform: time
+      at: '17:00:00'
+  action:
+    service: homeassistant.turn_on
+    entity_id: 
+      - light.matbord_level
+      
+- alias: 'Tända matbord kvällar'
+  trigger:
+    - platform: time
+      at: '17:00:00'
+  action:
+    service: homeassistant.turn_on
+    entity_id: 
+      - light.matbord_level
+      
+- alias: 'Släcka matbord kvällar'
+  trigger:
+    - platform: time
+      at: '22:00:00'
+  condition:
+    condition: time
+    weekday:
+      - fri
+      - sat
+  action:
+    service: homeassistant.turn_off
+    entity_id: 
+      - light.matbord_level
