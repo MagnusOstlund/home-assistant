@@ -2,19 +2,42 @@
 
   light.bankspottar_level:
     friendly_name: Bänk spottar
-    alexa_hidden: true
+  sensor.bankspottar_energy:
+    friendly_name: Bänk spottar
+  sensor.bankspottar_power:
+    friendly_name: Bänk spottar
+    
   light.entrelampor_level:
     friendly_name: Lampor
-    alexa_name: Entrance
+  sensor.entrelampor_energy:
+    friendly_name: Entrélampor
+  sensor.entrelampor_power:
+    friendly_name: Entrélampor
+
   light.rum1nv_level:
     friendly_name: Taklampa
-    alexa_name: Emmas ceiling
+  sensor.rum1nv_energy:
+    friendly_name: Taklampa Emma
+  sensor.rum1nv_power:
+    friendly_name: Taklampa Emma
+    
   light.matbord_level:
     friendly_name: Köksbord
-    alexa_name: Kitchen table
+  sensor.matbord_energy:
+    friendly_name: Taklampa Köksbord
+  sensor.matbord_power:
+    friendly_name: Taklampa Köksbord
+    
   light.vardagsrum_level:
     friendly_name: Takspottar
-    alexa_name: Living room lamp
+  sensor.vardagsrum_energy:
+    friendly_name: Takspottar Vardagsrum
+  sensor.vardagsrum_power:
+    friendly_name: Takspottar Vardagsrum
+    
   light.rum2nv_level:
     friendly_name: Taklampa
-    alexa_name: TV ceiling
+  sensor.rum2nv_energy:
+    friendly_name: Taklampa TV-rum
+  sensor.rum2nv_power:
+    friendly_name: Taklampa TV-rum

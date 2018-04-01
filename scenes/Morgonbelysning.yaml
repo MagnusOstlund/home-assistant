@@ -1,0 +1,48 @@
+name: Morgonbelysning
+entities:
+  switch.brytare2_switch:
+    state: off
+  switch.brytare8_switch:
+    state: off
+  light.bankspottar_level:
+    state: on
+    brightness: 255
+  light.entrelampor_level:
+    state: on
+    brightness: 255
+  switch.brytare7_switch:
+    state: off
+  light.vardagsrum_level_2:
+    state: off
+  light.rum2nv_level_2:
+    state: on
+    brightness: 255
+  light.vardagsrum_level:
+    state: on
+    brightness: 113
+  light.rum2nv_level:
+    state: off
+  light.rum1nv_level:
+    state: off
+  light.entrelampor_level_2:
+    state: on
+    brightness: 255
+  switch.brytare6_switch:
+    state: on
+  switch.brytare3_switch:
+    state: on
+  light.rum1nv_level_2:
+    state: on
+    brightness: 255
+  switch.brytare9_switch:
+    state: off
+  switch.brytare4_switch:
+    state: on
+  switch.brytare1_switch:
+    state: on
+  switch.brytare5_switch:
+    state: off
+  light.matbord_level:
+    state: off
+  light.bankspottar_level_2:
+    state: off

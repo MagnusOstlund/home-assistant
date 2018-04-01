@@ -36,7 +36,20 @@ taklampor:
     - light.rum1nv_level
     - light.rum2nv_level
     - light.vardagsrum_level
-    
+     
+     ############################ Automationsgrupper ############################
+
+lampor1:
+  name: Autmationslampor 
+  view: no
+  entities:
+    - switch.brytare1_switch
+    - switch.brytare2_switch
+    - switch.brytare3_switch
+    - switch.brytare4_switch
+    - switch.brytare7_switch
+    - switch.brytare8_switch
+    - light.entrelampor_level
 ####################################### RUM ###########################################
 groventre:
   name: Groventré
@@ -105,6 +118,7 @@ vardagsrum:
   name: Vardagsrum
   view: no
   entities:
+   - light.vardagsrum_level
    - switch.brytare3_switch
    - binary_sensor.rokdetektor_trapp_sensor
    - sensor.rokdetektor_trapp_temperature
@@ -122,8 +136,46 @@ uterum:
   entities:
    - switch.brytare5_switch
    
-####################################   MEDIA ############################################################################################################## 
- 
+####################################   Energimätning ############################################################################################################## 
+energi:
+  name: Energiförbrukning
+  view: no
+  entities:
+     - sensor.bankspottar_energy
+     - sensor.entrelampor_energy
+     - sensor.rum1nv_energy
+     - sensor.matbord_energy
+     - sensor.vardagsrum_energy
+     - sensor.rum2nv_energy
+     - sensor.brytare1_energy
+     - sensor.brytare2_energy
+     - sensor.brytare3_energy
+     - sensor.brytare4_energy
+     - sensor.brytare5_energy
+     - sensor.brytare6_energy
+     - sensor.brytare7_energy
+     - sensor.brytare8_energy
+     - sensor.brytare9_energy
+     
+effekt:
+  name: Effekt
+  view: no
+  entities:
+     - sensor.bankspottar_power
+     - sensor.entrelampor_power
+     - sensor.rum1nv_power
+     - sensor.matbord_power
+     - sensor.vardagsrum_power
+     - sensor.rum2nv_power
+     - sensor.brytare1_power
+     - sensor.brytare2_power
+     - sensor.brytare3_power
+     - sensor.brytare4_power
+     - sensor.brytare5_power
+     - sensor.brytare6_power
+     - sensor.brytare7_power
+     - sensor.brytare8_power
+     - sensor.brytare9_power
  
  #################################################VIEWS############################################################################################
  
@@ -189,3 +241,10 @@ media:
   view: yes
   entities:
    - media_player.philips_tv
+ 
+energivy:
+  name: Energi
+  view: yes
+  entities:
+    - group.energi
+    - group.effekt

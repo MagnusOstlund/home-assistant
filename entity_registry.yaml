@@ -1,0 +1,882 @@
+sensor.emma_ostlunds_iphone_battery_level:
+  platform: ios
+  unique_id: level_emma_stlunds_iphone
+sensor.emma_ostlunds_iphone_battery_state:
+  platform: ios
+  unique_id: state_emma
+sensor.magnus_ipad_battery_state:
+  platform: ios
+  unique_id: state_magnus_ipad
+sensor.emma_ostlunds_iphone_battery_state_2:
+  platform: ios
+  unique_id: state_emma_stlunds_iphone
+sensor.magnus_iphone_battery_level:
+  platform: ios
+  unique_id: level_magnus
+sensor.magnus_ipad_battery_level:
+  platform: ios
+  unique_id: level_magnus_ipad
+sensor.magnus_iphone_battery_state:
+  platform: ios
+  unique_id: state_magnus
+sensor.emma_ostlunds_iphone_battery_level_2:
+  platform: ios
+  unique_id: level_emma
+switch.brytare1_switch:
+  platform: zwave
+  unique_id: 2-72057594076282880
+sensor.brytare1_energy:
+  platform: zwave
+  unique_id: 2-72057594076495874
+sensor.brytare1_previous_reading:
+  platform: zwave
+  unique_id: 2-72057594076495890
+sensor.brytare1_interval:
+  platform: zwave
+  unique_id: 2-72057594076495907
+sensor.brytare1_power:
+  platform: zwave
+  unique_id: 2-72057594076496002
+sensor.brytare1_previous_reading_2:
+  platform: zwave
+  unique_id: 2-72057594076496018
+sensor.brytare1_interval_2:
+  platform: zwave
+  unique_id: 2-72057594076496035
+sensor.brytare1_voltage:
+  platform: zwave
+  unique_id: 2-72057594076496130
+sensor.brytare1_previous_reading_3:
+  platform: zwave
+  unique_id: 2-72057594076496146
+sensor.brytare1_interval_3:
+  platform: zwave
+  unique_id: 2-72057594076496163
+sensor.brytare1_current:
+  platform: zwave
+  unique_id: 2-72057594076496194
+sensor.brytare1_previous_reading_4:
+  platform: zwave
+  unique_id: 2-72057594076496210
+sensor.brytare1_interval_4:
+  platform: zwave
+  unique_id: 2-72057594076496227
+sensor.brytare1_exporting:
+  platform: zwave
+  unique_id: 2-72057594076496384
+sensor.brytare1_alarm_type:
+  platform: zwave
+  unique_id: 2-72057594077528065
+sensor.brytare1_alarm_level:
+  platform: zwave
+  unique_id: 2-72057594077528081
+sensor.brytare1_sourcenodeid:
+  platform: zwave
+  unique_id: 2-72057594077528097
+sensor.brytare1_power_management:
+  platform: zwave
+  unique_id: 2-72057594077528241
+switch.brytare2_switch:
+  platform: zwave
+  unique_id: 3-72057594093060096
+sensor.brytare2_energy:
+  platform: zwave
+  unique_id: 3-72057594093273090
+sensor.brytare2_previous_reading:
+  platform: zwave
+  unique_id: 3-72057594093273106
+sensor.brytare2_interval:
+  platform: zwave
+  unique_id: 3-72057594093273123
+sensor.brytare2_power:
+  platform: zwave
+  unique_id: 3-72057594093273218
+sensor.brytare2_previous_reading_2:
+  platform: zwave
+  unique_id: 3-72057594093273234
+sensor.brytare2_interval_2:
+  platform: zwave
+  unique_id: 3-72057594093273251
+sensor.brytare2_voltage:
+  platform: zwave
+  unique_id: 3-72057594093273346
+sensor.brytare2_previous_reading_3:
+  platform: zwave
+  unique_id: 3-72057594093273362
+sensor.brytare2_interval_3:
+  platform: zwave
+  unique_id: 3-72057594093273379
+sensor.brytare2_current:
+  platform: zwave
+  unique_id: 3-72057594093273410
+sensor.brytare2_previous_reading_4:
+  platform: zwave
+  unique_id: 3-72057594093273426
+sensor.brytare2_interval_4:
+  platform: zwave
+  unique_id: 3-72057594093273443
+sensor.brytare2_exporting:
+  platform: zwave
+  unique_id: 3-72057594093273600
+sensor.brytare2_alarm_type:
+  platform: zwave
+  unique_id: 3-72057594094305281
+sensor.brytare2_alarm_level:
+  platform: zwave
+  unique_id: 3-72057594094305297
+sensor.brytare2_sourcenodeid:
+  platform: zwave
+  unique_id: 3-72057594094305313
+sensor.brytare2_power_management:
+  platform: zwave
+  unique_id: 3-72057594094305457
+switch.brytare5_switch:
+  platform: zwave
+  unique_id: 5-72057594126614528
+sensor.brytare5_energy:
+  platform: zwave
+  unique_id: 5-72057594126827522
+sensor.brytare5_previous_reading:
+  platform: zwave
+  unique_id: 5-72057594126827538
+sensor.brytare5_interval:
+  platform: zwave
+  unique_id: 5-72057594126827555
+sensor.brytare5_power:
+  platform: zwave
+  unique_id: 5-72057594126827650
+sensor.brytare5_previous_reading_2:
+  platform: zwave
+  unique_id: 5-72057594126827666
+sensor.brytare5_interval_2:
+  platform: zwave
+  unique_id: 5-72057594126827683
+sensor.brytare5_voltage:
+  platform: zwave
+  unique_id: 5-72057594126827778
+sensor.brytare5_previous_reading_3:
+  platform: zwave
+  unique_id: 5-72057594126827794
+sensor.brytare5_interval_3:
+  platform: zwave
+  unique_id: 5-72057594126827811
+sensor.brytare5_current:
+  platform: zwave
+  unique_id: 5-72057594126827842
+sensor.brytare5_previous_reading_4:
+  platform: zwave
+  unique_id: 5-72057594126827858
+sensor.brytare5_interval_4:
+  platform: zwave
+  unique_id: 5-72057594126827875
+sensor.brytare5_exporting:
+  platform: zwave
+  unique_id: 5-72057594126828032
+sensor.brytare5_alarm_type:
+  platform: zwave
+  unique_id: 5-72057594127859713
+sensor.brytare5_alarm_level:
+  platform: zwave
+  unique_id: 5-72057594127859729
+sensor.brytare5_sourcenodeid:
+  platform: zwave
+  unique_id: 5-72057594127859745
+sensor.brytare5_power_management:
+  platform: zwave
+  unique_id: 5-72057594127859889
+switch.brytare6_switch:
+  platform: zwave
+  unique_id: 6-72057594143391744
+sensor.brytare6_energy:
+  platform: zwave
+  unique_id: 6-72057594143604738
+sensor.brytare6_previous_reading:
+  platform: zwave
+  unique_id: 6-72057594143604754
+sensor.brytare6_interval:
+  platform: zwave
+  unique_id: 6-72057594143604771
+sensor.brytare6_power:
+  platform: zwave
+  unique_id: 6-72057594143604866
+sensor.brytare6_previous_reading_2:
+  platform: zwave
+  unique_id: 6-72057594143604882
+sensor.brytare6_interval_2:
+  platform: zwave
+  unique_id: 6-72057594143604899
+sensor.brytare6_voltage:
+  platform: zwave
+  unique_id: 6-72057594143604994
+sensor.brytare6_previous_reading_3:
+  platform: zwave
+  unique_id: 6-72057594143605010
+sensor.brytare6_interval_3:
+  platform: zwave
+  unique_id: 6-72057594143605027
+sensor.brytare6_current:
+  platform: zwave
+  unique_id: 6-72057594143605058
+sensor.brytare6_previous_reading_4:
+  platform: zwave
+  unique_id: 6-72057594143605074
+sensor.brytare6_interval_4:
+  platform: zwave
+  unique_id: 6-72057594143605091
+sensor.brytare6_exporting:
+  platform: zwave
+  unique_id: 6-72057594143605248
+sensor.brytare6_alarm_type:
+  platform: zwave
+  unique_id: 6-72057594144636929
+sensor.brytare6_alarm_level:
+  platform: zwave
+  unique_id: 6-72057594144636945
+sensor.brytare6_sourcenodeid:
+  platform: zwave
+  unique_id: 6-72057594144636961
+sensor.brytare6_power_management:
+  platform: zwave
+  unique_id: 6-72057594144637105
+switch.brytare8_switch:
+  platform: zwave
+  unique_id: 7-72057594160168960
+sensor.brytare8_energy:
+  platform: zwave
+  unique_id: 7-72057594160381954
+sensor.brytare8_previous_reading:
+  platform: zwave
+  unique_id: 7-72057594160381970
+sensor.brytare8_interval:
+  platform: zwave
+  unique_id: 7-72057594160381987
+sensor.brytare8_power:
+  platform: zwave
+  unique_id: 7-72057594160382082
+sensor.brytare8_previous_reading_2:
+  platform: zwave
+  unique_id: 7-72057594160382098
+sensor.brytare8_interval_2:
+  platform: zwave
+  unique_id: 7-72057594160382115
+sensor.brytare8_voltage:
+  platform: zwave
+  unique_id: 7-72057594160382210
+sensor.brytare8_previous_reading_3:
+  platform: zwave
+  unique_id: 7-72057594160382226
+sensor.brytare8_interval_3:
+  platform: zwave
+  unique_id: 7-72057594160382243
+sensor.brytare8_current:
+  platform: zwave
+  unique_id: 7-72057594160382274
+sensor.brytare8_previous_reading_4:
+  platform: zwave
+  unique_id: 7-72057594160382290
+sensor.brytare8_interval_4:
+  platform: zwave
+  unique_id: 7-72057594160382307
+sensor.brytare8_exporting:
+  platform: zwave
+  unique_id: 7-72057594160382464
+sensor.brytare8_alarm_type:
+  platform: zwave
+  unique_id: 7-72057594161414145
+sensor.brytare8_alarm_level:
+  platform: zwave
+  unique_id: 7-72057594161414161
+sensor.brytare8_sourcenodeid:
+  platform: zwave
+  unique_id: 7-72057594161414177
+sensor.brytare8_power_management:
+  platform: zwave
+  unique_id: 7-72057594161414321
+switch.brytare9_switch:
+  platform: zwave
+  unique_id: 8-72057594176946176
+sensor.brytare9_energy:
+  platform: zwave
+  unique_id: 8-72057594177159170
+sensor.brytare9_previous_reading:
+  platform: zwave
+  unique_id: 8-72057594177159186
+sensor.brytare9_interval:
+  platform: zwave
+  unique_id: 8-72057594177159203
+sensor.brytare9_power:
+  platform: zwave
+  unique_id: 8-72057594177159298
+sensor.brytare9_previous_reading_2:
+  platform: zwave
+  unique_id: 8-72057594177159314
+sensor.brytare9_interval_2:
+  platform: zwave
+  unique_id: 8-72057594177159331
+sensor.brytare9_voltage:
+  platform: zwave
+  unique_id: 8-72057594177159426
+sensor.brytare9_previous_reading_3:
+  platform: zwave
+  unique_id: 8-72057594177159442
+sensor.brytare9_interval_3:
+  platform: zwave
+  unique_id: 8-72057594177159459
+sensor.brytare9_current:
+  platform: zwave
+  unique_id: 8-72057594177159490
+sensor.brytare9_previous_reading_4:
+  platform: zwave
+  unique_id: 8-72057594177159506
+sensor.brytare9_interval_4:
+  platform: zwave
+  unique_id: 8-72057594177159523
+sensor.brytare9_exporting:
+  platform: zwave
+  unique_id: 8-72057594177159680
+sensor.brytare9_alarm_type:
+  platform: zwave
+  unique_id: 8-72057594178191361
+sensor.brytare9_alarm_level:
+  platform: zwave
+  unique_id: 8-72057594178191377
+sensor.brytare9_sourcenodeid:
+  platform: zwave
+  unique_id: 8-72057594178191393
+sensor.brytare9_power_management:
+  platform: zwave
+  unique_id: 8-72057594178191537
+switch.brytare7_switch:
+  platform: zwave
+  unique_id: 9-72057594193723392
+sensor.brytare7_energy:
+  platform: zwave
+  unique_id: 9-72057594193936386
+sensor.brytare7_previous_reading:
+  platform: zwave
+  unique_id: 9-72057594193936402
+sensor.brytare7_interval:
+  platform: zwave
+  unique_id: 9-72057594193936419
+sensor.brytare7_power:
+  platform: zwave
+  unique_id: 9-72057594193936514
+sensor.brytare7_previous_reading_2:
+  platform: zwave
+  unique_id: 9-72057594193936530
+sensor.brytare7_interval_2:
+  platform: zwave
+  unique_id: 9-72057594193936547
+sensor.brytare7_voltage:
+  platform: zwave
+  unique_id: 9-72057594193936642
+sensor.brytare7_previous_reading_3:
+  platform: zwave
+  unique_id: 9-72057594193936658
+sensor.brytare7_interval_3:
+  platform: zwave
+  unique_id: 9-72057594193936675
+sensor.brytare7_current:
+  platform: zwave
+  unique_id: 9-72057594193936706
+sensor.brytare7_previous_reading_4:
+  platform: zwave
+  unique_id: 9-72057594193936722
+sensor.brytare7_interval_4:
+  platform: zwave
+  unique_id: 9-72057594193936739
+sensor.brytare7_exporting:
+  platform: zwave
+  unique_id: 9-72057594193936896
+sensor.brytare7_alarm_type:
+  platform: zwave
+  unique_id: 9-72057594194968577
+sensor.brytare7_alarm_level:
+  platform: zwave
+  unique_id: 9-72057594194968593
+sensor.brytare7_sourcenodeid:
+  platform: zwave
+  unique_id: 9-72057594194968609
+sensor.brytare7_power_management:
+  platform: zwave
+  unique_id: 9-72057594194968753
+switch.brytare3_switch:
+  platform: zwave
+  unique_id: 12-72057594244055040
+sensor.brytare3_energy:
+  platform: zwave
+  unique_id: 12-72057594244268034
+sensor.brytare3_previous_reading:
+  platform: zwave
+  unique_id: 12-72057594244268050
+sensor.brytare3_interval:
+  platform: zwave
+  unique_id: 12-72057594244268067
+sensor.brytare3_power:
+  platform: zwave
+  unique_id: 12-72057594244268162
+sensor.brytare3_previous_reading_2:
+  platform: zwave
+  unique_id: 12-72057594244268178
+sensor.brytare3_interval_2:
+  platform: zwave
+  unique_id: 12-72057594244268195
+sensor.brytare3_voltage:
+  platform: zwave
+  unique_id: 12-72057594244268290
+sensor.brytare3_previous_reading_3:
+  platform: zwave
+  unique_id: 12-72057594244268306
+sensor.brytare3_interval_3:
+  platform: zwave
+  unique_id: 12-72057594244268323
+sensor.brytare3_current:
+  platform: zwave
+  unique_id: 12-72057594244268354
+sensor.brytare3_previous_reading_4:
+  platform: zwave
+  unique_id: 12-72057594244268370
+sensor.brytare3_interval_4:
+  platform: zwave
+  unique_id: 12-72057594244268387
+sensor.brytare3_exporting:
+  platform: zwave
+  unique_id: 12-72057594244268544
+sensor.brytare3_alarm_type:
+  platform: zwave
+  unique_id: 12-72057594245300225
+sensor.brytare3_alarm_level:
+  platform: zwave
+  unique_id: 12-72057594245300241
+sensor.brytare3_sourcenodeid:
+  platform: zwave
+  unique_id: 12-72057594245300257
+sensor.brytare3_power_management:
+  platform: zwave
+  unique_id: 12-72057594245300401
+binary_sensor.rokdetektor_rum1nv_sensor:
+  platform: zwave
+  unique_id: 13-72057594261012480
+sensor.rokdetektor_rum1nv_temperature:
+  platform: zwave
+  unique_id: 13-72057594261028882
+sensor.rokdetektor_rum1nv_alarm_type:
+  platform: zwave
+  unique_id: 13-72057594262077441
+sensor.rokdetektor_rum1nv_alarm_level:
+  platform: zwave
+  unique_id: 13-72057594262077457
+sensor.rokdetektor_rum1nv_sourcenodeid:
+  platform: zwave
+  unique_id: 13-72057594262077473
+sensor.rokdetektor_rum1nv_smoke:
+  platform: zwave
+  unique_id: 13-72057594262077505
+sensor.rokdetektor_rum1nv_heat:
+  platform: zwave
+  unique_id: 13-72057594262077553
+sensor.rokdetektor_rum1nv_burglar:
+  platform: zwave
+  unique_id: 13-72057594262077601
+sensor.rokdetektor_rum1nv_power_management:
+  platform: zwave
+  unique_id: 13-72057594262077617
+sensor.rokdetektor_rum1nv_system:
+  platform: zwave
+  unique_id: 13-72057594262077633
+sensor.rokdetektor_rum1nv_general:
+  platform: zwave
+  unique_id: 13-72057594262781953
+sensor.rokdetektor_rum1nv_smoke_2:
+  platform: zwave
+  unique_id: 13-72057594262781969
+sensor.rokdetektor_rum1nv_heat_2:
+  platform: zwave
+  unique_id: 13-72057594262782017
+binary_sensor.rokdetektor_rum1ov_sensor:
+  platform: zwave
+  unique_id: 15-72057594294566912
+sensor.rokdetektor_rum1ov_temperature:
+  platform: zwave
+  unique_id: 15-72057594294583314
+sensor.rokdetektor_rum1ov_alarm_type:
+  platform: zwave
+  unique_id: 15-72057594295631873
+sensor.rokdetektor_rum1ov_alarm_level:
+  platform: zwave
+  unique_id: 15-72057594295631889
+sensor.rokdetektor_rum1ov_sourcenodeid:
+  platform: zwave
+  unique_id: 15-72057594295631905
+sensor.rokdetektor_rum1ov_smoke:
+  platform: zwave
+  unique_id: 15-72057594295631937
+sensor.rokdetektor_rum1ov_heat:
+  platform: zwave
+  unique_id: 15-72057594295631985
+sensor.rokdetektor_rum1ov_burglar:
+  platform: zwave
+  unique_id: 15-72057594295632033
+sensor.rokdetektor_rum1ov_power_management:
+  platform: zwave
+  unique_id: 15-72057594295632049
+sensor.rokdetektor_rum1ov_system:
+  platform: zwave
+  unique_id: 15-72057594295632065
+sensor.rokdetektor_rum1ov_general:
+  platform: zwave
+  unique_id: 15-72057594296336385
+sensor.rokdetektor_rum1ov_smoke_2:
+  platform: zwave
+  unique_id: 15-72057594296336401
+sensor.rokdetektor_rum1ov_heat_2:
+  platform: zwave
+  unique_id: 15-72057594296336449
+binary_sensor.rokdetektor_trapp_sensor:
+  platform: zwave
+  unique_id: 16-72057594311344128
+sensor.rokdetektor_trapp_temperature:
+  platform: zwave
+  unique_id: 16-72057594311360530
+sensor.rokdetektor_trapp_power:
+  platform: zwave
+  unique_id: 16-72057594311360578
+sensor.rokdetektor_trapp_alarm_type:
+  platform: zwave
+  unique_id: 16-72057594312409089
+sensor.rokdetektor_trapp_alarm_level:
+  platform: zwave
+  unique_id: 16-72057594312409105
+sensor.rokdetektor_trapp_sourcenodeid:
+  platform: zwave
+  unique_id: 16-72057594312409121
+sensor.rokdetektor_trapp_smoke:
+  platform: zwave
+  unique_id: 16-72057594312409153
+sensor.rokdetektor_trapp_heat:
+  platform: zwave
+  unique_id: 16-72057594312409201
+sensor.rokdetektor_trapp_burglar:
+  platform: zwave
+  unique_id: 16-72057594312409249
+sensor.rokdetektor_trapp_power_management:
+  platform: zwave
+  unique_id: 16-72057594312409265
+sensor.rokdetektor_trapp_system:
+  platform: zwave
+  unique_id: 16-72057594312409281
+sensor.rokdetektor_trapp_general:
+  platform: zwave
+  unique_id: 16-72057594313113601
+sensor.rokdetektor_trapp_smoke_2:
+  platform: zwave
+  unique_id: 16-72057594313113617
+sensor.rokdetektor_trapp_heat_2:
+  platform: zwave
+  unique_id: 16-72057594313113665
+binary_sensor.rokdetektor_tvattstuga_sensor:
+  platform: zwave
+  unique_id: 17-72057594328121344
+sensor.rokdetektor_tvattstuga_temperature:
+  platform: zwave
+  unique_id: 17-72057594328137746
+sensor.rokdetektor_tvattstuga_alarm_type:
+  platform: zwave
+  unique_id: 17-72057594329186305
+sensor.rokdetektor_tvattstuga_alarm_level:
+  platform: zwave
+  unique_id: 17-72057594329186321
+sensor.rokdetektor_tvattstuga_sourcenodeid:
+  platform: zwave
+  unique_id: 17-72057594329186337
+sensor.rokdetektor_tvattstuga_smoke:
+  platform: zwave
+  unique_id: 17-72057594329186369
+sensor.rokdetektor_tvattstuga_heat:
+  platform: zwave
+  unique_id: 17-72057594329186417
+sensor.rokdetektor_tvattstuga_burglar:
+  platform: zwave
+  unique_id: 17-72057594329186465
+sensor.rokdetektor_tvattstuga_power_management:
+  platform: zwave
+  unique_id: 17-72057594329186481
+sensor.rokdetektor_tvattstuga_system:
+  platform: zwave
+  unique_id: 17-72057594329186497
+sensor.rokdetektor_tvattstuga_general:
+  platform: zwave
+  unique_id: 17-72057594329890817
+sensor.rokdetektor_tvattstuga_smoke_2:
+  platform: zwave
+  unique_id: 17-72057594329890833
+sensor.rokdetektor_tvattstuga_heat_2:
+  platform: zwave
+  unique_id: 17-72057594329890881
+binary_sensor.rokdetektor_rum2ov_sensor:
+  platform: zwave
+  unique_id: 19-72057594361675776
+sensor.rokdetektor_rum2ov_temperature:
+  platform: zwave
+  unique_id: 19-72057594361692178
+sensor.rokdetektor_rum2ov_alarm_type:
+  platform: zwave
+  unique_id: 19-72057594362740737
+sensor.rokdetektor_rum2ov_alarm_level:
+  platform: zwave
+  unique_id: 19-72057594362740753
+sensor.rokdetektor_rum2ov_sourcenodeid:
+  platform: zwave
+  unique_id: 19-72057594362740769
+sensor.rokdetektor_rum2ov_smoke:
+  platform: zwave
+  unique_id: 19-72057594362740801
+sensor.rokdetektor_rum2ov_heat:
+  platform: zwave
+  unique_id: 19-72057594362740849
+sensor.rokdetektor_rum2ov_burglar:
+  platform: zwave
+  unique_id: 19-72057594362740897
+sensor.rokdetektor_rum2ov_power_management:
+  platform: zwave
+  unique_id: 19-72057594362740913
+sensor.rokdetektor_rum2ov_system:
+  platform: zwave
+  unique_id: 19-72057594362740929
+sensor.rokdetektor_rum2ov_general:
+  platform: zwave
+  unique_id: 19-72057594363445249
+sensor.rokdetektor_rum2ov_smoke_2:
+  platform: zwave
+  unique_id: 19-72057594363445265
+sensor.rokdetektor_rum2ov_heat_2:
+  platform: zwave
+  unique_id: 19-72057594363445313
+light.matbord_level:
+  platform: zwave
+  unique_id: 20-72057594378289153
+light.matbord_level_2:
+  platform: zwave
+  unique_id: 20-144115188416217089
+sensor.matbord_power:
+  platform: zwave
+  unique_id: 20-72057594378469442
+sensor.matbord_energy:
+  platform: zwave
+  unique_id: 20-72057594378485762
+sensor.matbord_previous_reading:
+  platform: zwave
+  unique_id: 20-72057594378485778
+sensor.matbord_interval:
+  platform: zwave
+  unique_id: 20-72057594378485795
+sensor.matbord_power_2:
+  platform: zwave
+  unique_id: 20-72057594378485890
+sensor.matbord_exporting:
+  platform: zwave
+  unique_id: 20-72057594378486272
+sensor.matbord_alarm_type:
+  platform: zwave
+  unique_id: 20-72057594379517953
+sensor.matbord_alarm_level:
+  platform: zwave
+  unique_id: 20-72057594379517969
+sensor.matbord_sourcenodeid:
+  platform: zwave
+  unique_id: 20-72057594379517985
+sensor.matbord_heat:
+  platform: zwave
+  unique_id: 20-72057594379518065
+sensor.matbord_power_management:
+  platform: zwave
+  unique_id: 20-72057594379518129
+sensor.matbord_system:
+  platform: zwave
+  unique_id: 20-72057594379518145
+light.bankspottar_level:
+  platform: zwave
+  unique_id: 21-72057594395066369
+light.bankspottar_level_2:
+  platform: zwave
+  unique_id: 21-144115188432994305
+sensor.bankspottar_power:
+  platform: zwave
+  unique_id: 21-72057594395246658
+sensor.bankspottar_energy:
+  platform: zwave
+  unique_id: 21-72057594395262978
+sensor.bankspottar_power_2:
+  platform: zwave
+  unique_id: 21-72057594395263106
+sensor.bankspottar_exporting:
+  platform: zwave
+  unique_id: 21-72057594395263488
+sensor.bankspottar_alarm_type:
+  platform: zwave
+  unique_id: 21-72057594396295169
+sensor.bankspottar_alarm_level:
+  platform: zwave
+  unique_id: 21-72057594396295185
+sensor.bankspottar_sourcenodeid:
+  platform: zwave
+  unique_id: 21-72057594396295201
+sensor.bankspottar_heat:
+  platform: zwave
+  unique_id: 21-72057594396295281
+sensor.bankspottar_power_management:
+  platform: zwave
+  unique_id: 21-72057594396295345
+sensor.bankspottar_system:
+  platform: zwave
+  unique_id: 21-72057594396295361
+light.vardagsrum_level:
+  platform: zwave
+  unique_id: 22-72057594411843585
+light.vardagsrum_level_2:
+  platform: zwave
+  unique_id: 22-144115188449771521
+sensor.vardagsrum_power:
+  platform: zwave
+  unique_id: 22-72057594412023874
+sensor.vardagsrum_energy:
+  platform: zwave
+  unique_id: 22-72057594412040194
+sensor.vardagsrum_power_2:
+  platform: zwave
+  unique_id: 22-72057594412040322
+sensor.vardagsrum_exporting:
+  platform: zwave
+  unique_id: 22-72057594412040704
+sensor.vardagsrum_alarm_type:
+  platform: zwave
+  unique_id: 22-72057594413072385
+sensor.vardagsrum_alarm_level:
+  platform: zwave
+  unique_id: 22-72057594413072401
+sensor.vardagsrum_sourcenodeid:
+  platform: zwave
+  unique_id: 22-72057594413072417
+sensor.vardagsrum_heat:
+  platform: zwave
+  unique_id: 22-72057594413072497
+sensor.vardagsrum_power_management:
+  platform: zwave
+  unique_id: 22-72057594413072561
+sensor.vardagsrum_system:
+  platform: zwave
+  unique_id: 22-72057594413072577
+light.entrelampor_level:
+  platform: zwave
+  unique_id: 23-72057594428620801
+light.entrelampor_level_2:
+  platform: zwave
+  unique_id: 23-144115188466548737
+sensor.entrelampor_power:
+  platform: zwave
+  unique_id: 23-72057594428801090
+sensor.entrelampor_energy:
+  platform: zwave
+  unique_id: 23-72057594428817410
+sensor.entrelampor_power_2:
+  platform: zwave
+  unique_id: 23-72057594428817538
+sensor.entrelampor_exporting:
+  platform: zwave
+  unique_id: 23-72057594428817920
+sensor.entrelampor_alarm_type:
+  platform: zwave
+  unique_id: 23-72057594429849601
+sensor.entrelampor_alarm_level:
+  platform: zwave
+  unique_id: 23-72057594429849617
+sensor.entrelampor_sourcenodeid:
+  platform: zwave
+  unique_id: 23-72057594429849633
+sensor.entrelampor_heat:
+  platform: zwave
+  unique_id: 23-72057594429849713
+sensor.entrelampor_power_management:
+  platform: zwave
+  unique_id: 23-72057594429849777
+sensor.entrelampor_system:
+  platform: zwave
+  unique_id: 23-72057594429849793
+light.rum1nv_level:
+  platform: zwave
+  unique_id: 24-72057594445398017
+light.rum1nv_level_2:
+  platform: zwave
+  unique_id: 24-144115188483325953
+sensor.rum1nv_power:
+  platform: zwave
+  unique_id: 24-72057594445578306
+sensor.rum1nv_energy:
+  platform: zwave
+  unique_id: 24-72057594445594626
+sensor.rum1nv_power_2:
+  platform: zwave
+  unique_id: 24-72057594445594754
+sensor.rum1nv_exporting:
+  platform: zwave
+  unique_id: 24-72057594445595136
+sensor.rum1nv_alarm_type:
+  platform: zwave
+  unique_id: 24-72057594446626817
+sensor.rum1nv_alarm_level:
+  platform: zwave
+  unique_id: 24-72057594446626833
+sensor.rum1nv_sourcenodeid:
+  platform: zwave
+  unique_id: 24-72057594446626849
+sensor.rum1nv_heat:
+  platform: zwave
+  unique_id: 24-72057594446626929
+sensor.rum1nv_power_management:
+  platform: zwave
+  unique_id: 24-72057594446626993
+sensor.rum1nv_system:
+  platform: zwave
+  unique_id: 24-72057594446627009
+light.rum2nv_level:
+  platform: zwave
+  unique_id: 25-72057594462175233
+light.rum2nv_level_2:
+  platform: zwave
+  unique_id: 25-144115188500103169
+sensor.rum2nv_power:
+  platform: zwave
+  unique_id: 25-72057594462355522
+sensor.rum2nv_energy:
+  platform: zwave
+  unique_id: 25-72057594462371842
+sensor.rum2nv_previous_reading:
+  platform: zwave
+  unique_id: 25-72057594462371858
+sensor.rum2nv_interval:
+  platform: zwave
+  unique_id: 25-72057594462371875
+sensor.rum2nv_power_2:
+  platform: zwave
+  unique_id: 25-72057594462371970
+sensor.rum2nv_exporting:
+  platform: zwave
+  unique_id: 25-72057594462372352
+sensor.rum2nv_alarm_type:
+  platform: zwave
+  unique_id: 25-72057594463404033
+sensor.rum2nv_alarm_level:
+  platform: zwave
+  unique_id: 25-72057594463404049
+sensor.rum2nv_sourcenodeid:
+  platform: zwave
+  unique_id: 25-72057594463404065
+sensor.rum2nv_heat:
+  platform: zwave
+  unique_id: 25-72057594463404145
+sensor.rum2nv_power_management:
+  platform: zwave
+  unique_id: 25-72057594463404209
+sensor.rum2nv_system:
+  platform: zwave
+  unique_id: 25-72057594463404225

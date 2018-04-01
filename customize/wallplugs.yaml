@@ -4,73 +4,73 @@
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
   sensor.brytare1_energy:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa TV-rum
   sensor.brytare1_power:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa TV-rum
     
   switch.brytare2_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
   sensor.brytare2_energy:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Emmas rum
   sensor.brytare2_power:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Emmas rum
     
   switch.brytare3_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
   sensor.brytare3_energy:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Vardagsrum
   sensor.brytare3_power:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Vardagsrum
     
   switch.brytare4_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
   sensor.brytare4_energy:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Kök
   sensor.brytare4_power:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Kök
     
   switch.brytare5_switch:
     friendly_name: Golvlampa
     icon: mdi:lightbulb
   sensor.brytare5_energy:
-    friendly_name: Fönsterlampa
+    friendly_name: Golvlampa Uterum
   sensor.brytare5_power:
-    friendly_name: Fönsterlampa 
+    friendly_name: Golvlampa Uterum 
     
   switch.brytare6_switch:
     friendly_name: Golvlampa
     icon: mdi:lightbulb
   sensor.brytare6_energy:
-    friendly_name: Golvlampa
+    friendly_name: Golvlampa Hall Övervåning
   sensor.brytare6_power:
-    friendly_name: Golvlampa 
+    friendly_name: Golvlampa Hall Övervåning
     
   switch.brytare7_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
   sensor.brytare7_energy:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Master Bedroom
   sensor.brytare7_power:
-    friendly_name: Fönsterlampa
+    friendly_name: Fönsterlampa Master Bedroom
     
   switch.brytare8_switch:
     friendly_name: Fönsterlampa
     icon: mdi:lightbulb
   sensor.brytare8_energy:
-    friendly_name: Golvlampa
+    friendly_name: Golvlampa Gästrum
   sensor.brytare8_power:
-    friendly_name: Golvlampa
+    friendly_name: Golvlampa Gästrum
     
   switch.brytare9_switch:
     friendly_name: Golvlampa
     icon: mdi:lightbulb
   sensor.brytare9_energy:
-    friendly_name: Golvlampa
+    friendly_name: Golvlampa Emmas rum
   sensor.brytare9_power:
-    friendly_name: Golvlampa
+    friendly_name: Golvlampa Emmas rum
     
   switch.brytare10_switch:
     friendly_name: Poolen
